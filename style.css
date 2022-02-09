@@ -1,0 +1,142 @@
+.flex-container{
+    background-color: black;
+    border:1px solid grey;
+    flex-wrap: wrap;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row-reverse;
+}
+
+.flex-item{
+    background: tomato;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    line-height:100px;
+    color: white; 
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+}
+#top{
+    top: -33px;
+    left:0px;
+    width:1366px;
+    height: 144px;
+}
+.titolo1{
+    top: 152px;
+   /* left: 547px;
+    width: 293px;
+    height: 21px; */
+    font: normal normal normal 16px/22px roboto;
+    font-family: sans-serif;
+    letter-spacing: 1.6px;
+    color: #212529;
+    text-transform: uppercase;
+    opacity: 1;
+   /* text-align: center;*/
+}
+.titolo2{
+    margin-top: -25px;
+    left:455px;
+    height:81px;
+    font: 32px/40px;
+    color: #212529;
+    opacity: 1;
+}
+.paragrafo{
+    margin-top: -25px;
+    font-family: sans-serif;
+}
+.img{
+    margin-left: 139px;
+    margin-top: 25px;
+    width: 460px;
+    height: 309px;
+    background-color: grey;
+}
+.imgdx{
+    margin-right: 139px;
+    margin-top: 25px;
+    width: 460px;
+    height: 309px;
+    background-color: grey;
+}
+.paragrafoimg{
+    width: 460px;
+    height: 309px;
+    margin-right: 140px;
+    margin-top: 25px;
+    
+    color: #701f4a;
+    font-family: sans-serif;   
+    text-align: left;
+}
+.paragrafoimgsx{
+    width: 460px;
+    height: 309px;
+    margin-left: 140px;
+    margin-top: 25px;
+    
+    color: #701f4a;
+    font-family: sans-serif;   
+    text-align: left;
+}
+.button{
+    margin-top: 0px;
+    width:238px;
+    height:40px;
+    background-color: #701f4a;
+    border: #701f4a;
+    border-radius: 3px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 0.6px;
+}
+.margin{
+    margin-top: 150px;
+}
+.scheda{
+    height: 434px;
+    background-color: #f7f7f7;
+}
+hr{
+    clear: left;
+    border: 0px;
+}
+.icona{
+    margin-left: 220px;
+    width: 60px;
+    height: 57px;
+    padding: 150px;
+}
+.titoloscheda{
+    text-align:center; 
+    padding-top: 15%;
+}
+.parscheda{
+    width: 25%; 
+    height: 50%; 
+    font-family: sans-serif;   
+}  
+img{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 460px;
+    height: 309px;
+}
+nav{
+    background-color:#701f4a; 
+    height:70px; 
+    margin-top: -10px;
+}
